@@ -5,7 +5,11 @@
 </template>
 
 <script>
+import Vue from "vue"
+import Router from 'vue-router'
+import router from "./router/index.js"
 export default {
+  router: router,
   name: 'app'
 }
 </script>

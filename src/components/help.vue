@@ -14,11 +14,19 @@ export default {
     }
   },
   mounted() {
+    console.log('222');
+    
+    this.greet();
 
   },
   methods:{
-    greet: function (event) {
-      alert(event.target.tagName)
+    greet: function () {
+      this.$http.get('/api/v4/get_info').then(res => {
+        console.log(res);
+        console.log('2333');
+      }).catch(err => {
+        console.log(err);
+      });
     }
   }
 }
