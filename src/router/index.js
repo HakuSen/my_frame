@@ -6,12 +6,8 @@ import Help from '@/components/help'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'hash',
   routes: [
-    {
-      path: '/',
-      name: 'Hello',
-      component: Hello
-    },
     {
       path: '/help',
       name: 'help',

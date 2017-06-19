@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
-    "mock": "json-server --watch mock/db.json --routes mock/api.json --port 9091 -d 0",
+    "mock": "json-server --watch mock/db.json --routes mock/api.json --port 9091",
     "mockdev": "npm run mock &  npm run dev",
     "md": "npm run mock &  npm run dev",
     "build": "node build/build.js",

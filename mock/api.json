@@ -1,5 +1,5 @@
 {
-    "/api/v4/get_info": "/qitianxia",
+    "/api/v4/get_info/": "/qitianxia",
     "/actdata":"/actData",
     "/api/v4/document":"/document"
 }

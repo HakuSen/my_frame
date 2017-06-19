@@ -21,7 +21,7 @@ export default {
   },
   methods:{
     greet: function () {
-      this.$http.get('/api/v4/get_info').then(res => {
+      this.$http.get('/api/v4/get_info/').then(res => {
         console.log(res);
         console.log('2333');
       }).catch(err => {
